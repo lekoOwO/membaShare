@@ -23,7 +23,7 @@ def get_cookie():
 cookie_param = get_cookie()
 
 def get_m3u8(video_id, proxy):
-    cmd = f"streamlink --http-proxy '{proxy}' --stream-url 'https://www.youtube.com/watch?v={video_id}' {cookie_param}"
+    cmd = f"streamlink --https-proxy '{proxy}' --stream-url 'https://www.youtube.com/watch?v={video_id}' {cookie_param}"
     p = subprocess.Popen(shlex.split(cmd), stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     out, err = p.communicate()
 
