@@ -12,7 +12,7 @@
 - gunicorn (python3 package)
 
 ## Usage
-Put `cookie.txt` in the dir if needed (optional).
+Put `cookie.txt` in the dir.
 
 After the dependencies installed, run `run.bat` (Windows) or `run.sh` (\*nix).
 
