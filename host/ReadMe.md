@@ -1,4 +1,4 @@
-# membaShare - Client
+# membaShare - Host
 
 ## Dependencies
 - python3
