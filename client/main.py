@@ -33,7 +33,7 @@ def get_m3u8(video_id, server, proxy):
 
 if __name__ == '__main__':
     if not os.path.isfile("./apikey.txt"):
-        print("[ERROR] No tunnelto API Key found!")
+        print("[ERROR] No ngrok API Key found!")
         sys.exit(1)
         
     if sys.argv[1:]:
